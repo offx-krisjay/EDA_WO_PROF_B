@@ -7,8 +7,6 @@ from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
 from sklearn.preprocessing import MinMaxScaler,LabelEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.metrics import mean_squared_error, r2_score, accuracy_score, classification_report
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 st.title("Data-Cleansing, Profiling & ML Tool")
 st.subheader("By Muralikrishna")
