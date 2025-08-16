@@ -8,7 +8,7 @@ from sklearn.preprocessing import MinMaxScaler,LabelEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.metrics import mean_squared_error, r2_score, accuracy_score, classification_report
 
-st.title("Data-Cleansing, Profiling & ML Tool")
+st.title("Data-Cleansing & ML Tool")
 st.subheader("By Muralikrishna")
 
 up_file = st.file_uploader("Upload CSV", type=['csv'])
